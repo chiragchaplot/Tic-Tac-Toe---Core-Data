@@ -9,23 +9,33 @@
 /* Begin PBXBuildFile section */
 		05BF831F26E1FFE7001908FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BF831E26E1FFE7001908FB /* AppDelegate.swift */; };
 		05BF832126E1FFE7001908FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BF832026E1FFE7001908FB /* SceneDelegate.swift */; };
-		05BF832326E1FFE7001908FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BF832226E1FFE7001908FB /* ViewController.swift */; };
-		05BF832626E1FFE7001908FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05BF832426E1FFE7001908FB /* Main.storyboard */; };
+		05BF832326E1FFE7001908FB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BF832226E1FFE7001908FB /* GameViewController.swift */; };
 		05BF832926E1FFE7001908FB /* tictactoe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 05BF832726E1FFE7001908FB /* tictactoe.xcdatamodeld */; };
 		05BF832B26E1FFE8001908FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05BF832A26E1FFE8001908FB /* Assets.xcassets */; };
 		05BF832E26E1FFE8001908FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05BF832C26E1FFE8001908FB /* LaunchScreen.storyboard */; };
+		05BF834526E2F17D001908FB /* GameViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BF834426E2F17D001908FB /* GameViewCell.swift */; };
+		05BF834B26E39BC6001908FB /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BF834A26E39BC6001908FB /* PlayerModel.swift */; };
+		05BF834E26E39EC9001908FB /* WelcomScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BF834D26E39EC9001908FB /* WelcomScreenViewController.swift */; };
+		05BF835426E3A107001908FB /* CustomHeadingUILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BF835326E3A107001908FB /* CustomHeadingUILabel.swift */; };
+		05BF835726E3AEAD001908FB /* CustomUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BF835626E3AEAD001908FB /* CustomUITextField.swift */; };
+		05BF835B26E3AF0A001908FB /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BF835A26E3AF0A001908FB /* UIColor+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		05BF831B26E1FFE6001908FB /* tictactoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tictactoe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05BF831E26E1FFE7001908FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05BF832026E1FFE7001908FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		05BF832226E1FFE7001908FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		05BF832526E1FFE7001908FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05BF832226E1FFE7001908FB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		05BF832826E1FFE7001908FB /* tictactoe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = tictactoe.xcdatamodel; sourceTree = "<group>"; };
 		05BF832A26E1FFE8001908FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05BF832D26E1FFE8001908FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05BF832F26E1FFE8001908FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05BF834426E2F17D001908FB /* GameViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewCell.swift; sourceTree = "<group>"; };
+		05BF834A26E39BC6001908FB /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
+		05BF834D26E39EC9001908FB /* WelcomScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomScreenViewController.swift; sourceTree = "<group>"; };
+		05BF835326E3A107001908FB /* CustomHeadingUILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHeadingUILabel.swift; sourceTree = "<group>"; };
+		05BF835626E3AEAD001908FB /* CustomUITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUITextField.swift; sourceTree = "<group>"; };
+		05BF835A26E3AF0A001908FB /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +68,69 @@
 		05BF831D26E1FFE6001908FB /* tictactoe */ = {
 			isa = PBXGroup;
 			children = (
-				05BF831E26E1FFE7001908FB /* AppDelegate.swift */,
-				05BF832026E1FFE7001908FB /* SceneDelegate.swift */,
-				05BF832226E1FFE7001908FB /* ViewController.swift */,
-				05BF832426E1FFE7001908FB /* Main.storyboard */,
-				05BF832A26E1FFE8001908FB /* Assets.xcassets */,
-				05BF832C26E1FFE8001908FB /* LaunchScreen.storyboard */,
-				05BF832F26E1FFE8001908FB /* Info.plist */,
+				05BF835926E3AEFE001908FB /* Extension */,
+				05BF835226E3A0EF001908FB /* CustomUI */,
+				05BF833626E2EE7D001908FB /* Scenes */,
+				05BF835E26E4F4A7001908FB /* Resources */,
 				05BF832726E1FFE7001908FB /* tictactoe.xcdatamodeld */,
 			);
 			path = tictactoe;
+			sourceTree = "<group>";
+		};
+		05BF833626E2EE7D001908FB /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				05BF833826E2EE8C001908FB /* GameBoard */,
+				05BF833726E2EE83001908FB /* Welcome Screen */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		05BF833726E2EE83001908FB /* Welcome Screen */ = {
+			isa = PBXGroup;
+			children = (
+				05BF834D26E39EC9001908FB /* WelcomScreenViewController.swift */,
+			);
+			path = "Welcome Screen";
+			sourceTree = "<group>";
+		};
+		05BF833826E2EE8C001908FB /* GameBoard */ = {
+			isa = PBXGroup;
+			children = (
+				05BF834A26E39BC6001908FB /* PlayerModel.swift */,
+				05BF834426E2F17D001908FB /* GameViewCell.swift */,
+				05BF832226E1FFE7001908FB /* GameViewController.swift */,
+			);
+			path = GameBoard;
+			sourceTree = "<group>";
+		};
+		05BF835226E3A0EF001908FB /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				05BF835326E3A107001908FB /* CustomHeadingUILabel.swift */,
+				05BF835626E3AEAD001908FB /* CustomUITextField.swift */,
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		05BF835926E3AEFE001908FB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				05BF835A26E3AF0A001908FB /* UIColor+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		05BF835E26E4F4A7001908FB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				05BF831E26E1FFE7001908FB /* AppDelegate.swift */,
+				05BF832026E1FFE7001908FB /* SceneDelegate.swift */,
+				05BF832A26E1FFE8001908FB /* Assets.xcassets */,
+				05BF832C26E1FFE8001908FB /* LaunchScreen.storyboard */,
+				05BF832F26E1FFE8001908FB /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,7 +192,6 @@
 			files = (
 				05BF832E26E1FFE8001908FB /* LaunchScreen.storyboard in Resources */,
 				05BF832B26E1FFE8001908FB /* Assets.xcassets in Resources */,
-				05BF832626E1FFE7001908FB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,24 +202,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05BF832326E1FFE7001908FB /* ViewController.swift in Sources */,
+				05BF834B26E39BC6001908FB /* PlayerModel.swift in Sources */,
+				05BF835726E3AEAD001908FB /* CustomUITextField.swift in Sources */,
+				05BF834526E2F17D001908FB /* GameViewCell.swift in Sources */,
+				05BF832326E1FFE7001908FB /* GameViewController.swift in Sources */,
 				05BF831F26E1FFE7001908FB /* AppDelegate.swift in Sources */,
 				05BF832926E1FFE7001908FB /* tictactoe.xcdatamodeld in Sources */,
 				05BF832126E1FFE7001908FB /* SceneDelegate.swift in Sources */,
+				05BF835426E3A107001908FB /* CustomHeadingUILabel.swift in Sources */,
+				05BF834E26E39EC9001908FB /* WelcomScreenViewController.swift in Sources */,
+				05BF835B26E3AF0A001908FB /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		05BF832426E1FFE7001908FB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				05BF832526E1FFE7001908FB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		05BF832C26E1FFE8001908FB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
